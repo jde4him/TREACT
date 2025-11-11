@@ -83,7 +83,7 @@ nav {
 .button {
     padding: 7px 21px;
     margin-left: 7px;
-    margin-right: 21px;    
+    margin-right: -98px;    
     background-color: #6415ff;
     color: white;
     border-radius: 14px;
@@ -124,54 +124,46 @@ nav {
     cursor: pointer;
 }
 
-.btn__menu {
+.btn_menu {
     display: none;
     background: transparent;
     border: none;
-    transition: all 300ms ease;
+    transition: all 700ms ease;
+    color: #6415ff;
 }
 
-.btn__menu--svg:hover {
+.btn_menu--svg:hover {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
 }
 
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 378px;
-    margin: 24px 16px;
-    padding: 32px;
-    background-color: #fff;
-    border: 1px solid rgb(229, 231, 235);
-    border-radius: 8px;
-    z-index: 4;
-    visibility: hidden;
-    opacity: 0;
-    transform: translateX(300%);
-    transition: all 300ms ease;
+.menu_backdrop {
+position: fixed;
+top: 0;
+left: 7;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.6);
+z-index: 999;
+visibility: hidden;
+opacity: 0;
+transition: all 700ms ease;
 }
 
-.modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,.6);
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  padding-top: 80px;
-  visibility: hidden;
-  opacity: 0;
-  transition: .3s;
-  z-index: 1000;
+.menu--open .menu_backdrop {
+visibility: visible;
+opacity: 1;
+width: 100%;
+max-width: 217px;
+height: 35%;
+padding-top: 39px;
+padding-left: 59px;
+
 }
 
 .menu--open .modal {
-  visibility: visible;
+  visibility: hidden;
   opacity: 1;
 }
-
 
 .modal__links {
     width: 100%;
@@ -179,15 +171,16 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .modal__link {
     color: #1a202c;
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 2.5;
     margin: 8px 0;
-    padding-bottom: 4px;
+    padding-bottom: 14px;
     border-bottom: 2px solid transparent;
 }
 
@@ -197,18 +190,40 @@ nav {
     background: #6415ff;
     border-radius: 500px;
     border: none;
+    margin-top: 14px;
 }
 
-.menu--open .modal {
-    visibility: visible;
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.btn__menu--close {
+.btn_menu--close {
     position: fixed;
     top: 24px;
     right: 18px;
+}
+
+    .menu_list {
+        margin-top: 14px;
+        margin-bottom: 14px;
+        color: white;
+    }
+
+    .button_menu {
+    padding: 7px 21px;
+    background-color: #6415ff;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    }
+
+.button_menu:hover {
+    background-color: #9a41ff;
+    cursor: pointer;
+}
+
+.menu_link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
@@ -1189,13 +1204,30 @@ FOOTER
     header .row {
         align-items: flex-end;
     }
+
+    .btn_menu {
+        display: none;
+
+    }
 }
 
 @media (max-width: 1024px) {
 
-    .btn__menu {
-        display: block;
+    .btn_menu {
+        display: none;
     }
+
+.button {
+    padding: 7px 21px;
+    margin-left: 7px;
+    margin-right: 21px;    
+    background-color: #6415ff;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+}
+
     header .row {
         flex-direction: column;
         align-items: center;
@@ -1225,6 +1257,7 @@ FOOTER
     font-weight: 700;
     position: relative;
     margin-left: -3px;
+    
 }
 
 .ebox {
@@ -1598,7 +1631,6 @@ FOOTER
 
     /*  NAVIGATION  */
 
-
 nav {
     display: flex;
     padding-top: 32px;
@@ -1621,7 +1653,6 @@ nav {
     font-weight: 600;
     font-size: 14px;
     margin-right: -7px;
-
 }
 
 .nav_link:hover {
@@ -1642,9 +1673,12 @@ nav {
     font-weight: 700;
 }
 
-    .btn__menu {
-        display: block;
-    }
+
+
+
+
+
+
 
 
 /*  HEADER  */
@@ -1775,7 +1809,7 @@ nav {
 
     .features_para {
         margin-bottom: 21px;
-        font-size: 21px;
+        font-size: 21.77px;
         max-width: 525px;
     }
 
@@ -2231,9 +2265,14 @@ nav {
 
 
 /*  HIDE NAV LINKS  */
+
+.button {
+    visibility: hidden;
+}
+
 .btn_menu {
     display: block;
-    padding-right: 7px;
+    margin-right: 0px;
 }
 
 .nav_links {
@@ -2340,7 +2379,7 @@ nav {
 
     .icon1,
     .icon2 {
-        margin-left: 14px;
+        margin-left: 12px;
         margin-bottom: 7px;
         margin-top: 14px;
     }
@@ -2348,20 +2387,20 @@ nav {
 .icon1_mask {
     width: 49px;
     height: 49px;
-    margin-left: 98px;
+    margin-left: 105px;
     margin-top: 105px;
 }
 
 .icon2_mask {
     width: 49px;
     height: 49px;
-    margin-left: 98px;
+    margin-left: 105px;
     margin-top: 42px;
 }
     
     .h2 {
         margin-top: 175px;
-        margin-left: -49px;
+        margin-left: -42px;
         margin-right: 7px;
         font-size: 28px;
         text-align: center;
@@ -2370,7 +2409,7 @@ nav {
 
     .h2a {
         margin-top: 105px;
-        margin-left: -49px;
+        margin-left: -42px;
         margin-right: 7px;
         font-size: 28px;
         text-align: center;
@@ -2643,12 +2682,12 @@ nav {
     }
 
     .test_img2 {
-        margin-left: -770px;
+        margin-left: -763px;
         margin-top: 35px;
     }
 
     .test_img3 {
-        margin-left: -420px;
+        margin-left: -441px;
     } 
 
     .test_img4 {
@@ -2760,7 +2799,7 @@ nav {
     text-align: center;
     width: 100%;
     max-width: 840px;
-    margin-top: -12git addpx;
+    margin-top: -12px;
     position: relative;
     color: white;
     margin-left: -77px;
