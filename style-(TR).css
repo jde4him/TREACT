@@ -1994,10 +1994,16 @@ nav {
 
     .h1_7 {
         font-size: 40px;
-
         margin-top: 7px;
-
     }
+
+    /*  PRICING  */
+
+    .pricing_para {
+        font-size: 22px;
+        max-width: 518px;
+        margin-left: 49px;
+    }    
 
 
 
@@ -2613,7 +2619,14 @@ nav {
 
 
 
-    /*  PRICING  */
+
+        /*  PRICING  */
+
+    .pricing_para {
+        font-size: 19px;
+        max-width: 567px;
+        margin-left: -7px;
+    }
 
     .h4_7 {
         margin-left: 7px;
