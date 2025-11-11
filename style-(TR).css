@@ -1302,7 +1302,8 @@ FOOTER
 
     .icon1,
     .icon2 {
-        margin-left: 14px;
+        margin-left: 13px;
+        margin-top: 15px;
     }
 
 .icon1_mask {
@@ -1435,6 +1436,11 @@ FOOTER
 
 
     /*  PRICING  */
+    .pricing_para {
+        font-size: 21px;
+        max-width: 700px;
+        margin-left: 84px;
+    }
 
 
     /*  TESTIMONIALS  */
@@ -1452,6 +1458,7 @@ FOOTER
     .test_para {
         margin-left: -301px;
         max-width: 420px;
+
     }
 
     .test__ratings {
@@ -2273,6 +2280,7 @@ nav {
 .btn_menu {
     display: block;
     margin-right: 0px;
+    font-size: 28px;
 }
 
 .nav_links {
