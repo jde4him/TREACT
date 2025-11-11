@@ -130,7 +130,10 @@ nav {
     border: none;
     transition: all 700ms ease;
     color: #6415ff;
+    font-size: 14px;
 }
+
+
 
 .btn_menu--svg:hover {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
@@ -155,8 +158,8 @@ opacity: 1;
 width: 100%;
 max-width: 217px;
 height: 35%;
-padding-top: 39px;
-padding-left: 59px;
+padding-top: 28px;
+padding-left: 63px;
 
 }
 
@@ -165,16 +168,15 @@ padding-left: 59px;
   opacity: 1;
 }
 
-.modal__links {
+.modal_links {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.modal__link {
+.modal_link {
     color: #1a202c;
     font-size: 18px;
     font-weight: 600;
@@ -184,7 +186,7 @@ padding-left: 59px;
     border-bottom: 2px solid transparent;
 }
 
-.modal__link--primary {
+.modal_link--primary {
     color: #f7fafc;
     padding: 12px 32px;
     background: #6415ff;
@@ -200,7 +202,7 @@ padding-left: 59px;
 }
 
     .menu_list {
-        margin-top: 14px;
+        margin-top: 19px;
         margin-bottom: 14px;
         color: white;
     }
@@ -213,6 +215,7 @@ padding-left: 59px;
     border: none;
     font-size: 14px;
     font-weight: 700;
+    margin-top: 14px;
     }
 
 .button_menu:hover {
@@ -780,7 +783,9 @@ PRICING ↓
 }
 
 .pricing_para {
-    font-size: 18px;
+    font-size: 28px;
+    margin-left: 189px;
+    width: 840px;
     color: gray;
 }
 
@@ -978,7 +983,7 @@ START / CALL TO ACTION ↓
     align-items: center;
     position: relative;
     margin-top: 49px;
-    margin-bottom: 140px;
+    margin-bottom: 175px;
 }   
 
 
@@ -997,9 +1002,9 @@ START / CALL TO ACTION ↓
     font-size: 16px;
     font-weight: 700;
     margin: 0 auto;
-    margin-top: -252px;
+    margin-top: -273px;
     margin-right: 420px;
-    margin-bottom: 7px;
+    margin-bottom: 49px;
 }
 
 .btn5 {
@@ -1016,9 +1021,9 @@ START / CALL TO ACTION ↓
     font-size: 16px;
     font-weight: 700;
     margin: 0 auto;
-    margin-top: -70px;
+    margin-top: -112px;
     margin-right: 238px;
-    margin-bottom: 7px;
+    margin-bottom: 49px;
 }
 
 .btn4:hover {
@@ -1513,14 +1518,14 @@ FOOTER
 
 .btn4 {
         margin-right: 63px;
-        margin-top: -224px;
+        margin-top: -246px;
         margin-bottom: 112px;
         padding: 14px 28px;
     }
 
 .btn5 {
         margin-right: 238px;
-        margin-top: -159px;
+        margin-top: -161px;
         padding: 14px 28px;
     }
 
@@ -2101,7 +2106,7 @@ nav {
 .btn5 {
         margin-right: 154px;
         margin-top: -160px;
-        padding: 11px 17px;
+        padding: 12px 17px;
         font-size: 14px;
     }
 
@@ -2624,7 +2629,7 @@ nav {
 
     .pricing_para {
         font-size: 19px;
-        max-width: 567px;
+        max-width: 445px;
         margin-left: -7px;
     }
 
