@@ -3134,24 +3134,24 @@ nav {
     /*  QUALITY WORK  */
 
 .h4_4 {
-    margin-left: 7px;
+    margin-left: -28px;
     margin-top: -91px;
     position: absolute;
 }
 
 .h1_3 {
-    font-size: 35px;
-    width: 420px;
-    margin-left: 7px;
+    font-size: 26px;
+    width: 322px;
+    margin-left: -28px;
     margin-top: -63px;
     position: absolute;
 }
 
 .quality_para {
-    font-size: 16px;
-    width: 420px;
-    margin-left: 7px;
-    margin-top: 49px;
+    font-size: 17.5px;
+    width: 284px;
+    margin-left: -28px;
+    margin-top: 28px;
     position: absolute;
     text-align: justify;
     line-height: 2.5vh;
@@ -3159,43 +3159,51 @@ nav {
 
 
 .hero_img1 {
-        margin-left: 162px;
-        margin-top: 162px;
-        width: 84%;
-        max-width: 469px;
+        margin-left: 357px;
+        margin-top: 175px;
+        width: 49%;
+        max-width: 385px;
     }
 
 .btn {
-    margin-left: 12px;
-    margin-top: 441px;
+    margin-left: -21px;
+    margin-top: 350px;
+    font-size: 13px;
+    padding: 7px 18px;
 
 }
 
     /*  STEPS  */
 
 .hero_img2 {
-        margin-left: -56px;
-        margin-top: 119px;
-        width: 126%;   
+        margin-left: 42px;
+        margin-top: 147px;
+        width:77%;   
     }
 
     .h4_5 {
-        margin-left: -406px;
+        margin-left: -518px;
         margin-right: 14px;
         margin-bottom: 14px;
         margin-top: 10px;
+
     }
 
     .h1_5 {
         width: 100%;
-        max-width: 427px;
-        font-size: 39px;
-        margin-left: -21px;
+        max-width: 350px;
+        font-size: 34px;
+        margin-left: -7px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .one23 {
-        margin-left: 77px;
-        margin-top: 427px;
+        margin-left: -35px;
+        margin-top: 231px;
         margin-bottom: -105px;
     }
 
@@ -3291,8 +3299,8 @@ nav {
 
     .pricing_para {
         font-size: 19px;
-        max-width: 445px;
-        margin-left: -7px;
+        max-width: 301px;
+        margin-left: -53px;
     }
 
     .h4_7 {
@@ -3307,9 +3315,9 @@ nav {
     }
 
     .plan_img1 {
-        width: 112%;
+        width: 144%;
         max-width: 560px;
-        margin-left: -35px;
+        margin-left: -49px;
         margin-top: -28px;
     }
 
