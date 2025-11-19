@@ -3225,25 +3225,25 @@ nav {
 .h1_6 {
         font-size: 40px;
         width: 287px;
-        margin-left: 637px;
+        margin-left: 633px;
         margin-top: -840px;
-        margin-bottom: 7px;
+        margin-bottom: 14px;
         position: relative;
         text-align: center;
     }
 
     .values_para {
-        font-size: 18px;
+        font-size: 19px;
         width: 280px;
-        margin-left: 644px;
-        margin-top: -1050px;
+        margin-left: 637px;
+        margin-top: -1022px;
         margin-bottom: -21px;
         text-align: justify;
     }
 
     .proto_img {
-        margin-left: 91px;
-        margin-top: 910px;
+        margin-left: 98px;
+        margin-top: 924px;
         width: 280px;
 
     }
@@ -3274,21 +3274,21 @@ nav {
     .values_para2 {
         margin-left: 95px;
         margin-top: 238px;
-        font-size: 15.25px;
+        font-size: 17px;
         width: 147px;
         text-align: justify;
         line-height: 2.5vh;        
     }
 
 .values_para2A {
-    width: 189px;
+    width: 161px;
     max-width: calc(100%/2);
     line-height: 02.5vh;
     color: gray;
     margin-top: 455px;
     margin-bottom: -301px;
     margin-left: -91px;
-    font-size: 16px;
+    font-size: 17px;
     position: relative;
 }
 
@@ -3328,68 +3328,71 @@ nav {
     /*  TESTIMONIALS  */
 
     .h4_8 {
-        margin-left: -609px;
+        margin-left: -707px;
         margin-top: 140px;
     }
 
     .h1_8 {
         font-size: 40px;
-        width: 420px;
-        margin-left: -742px;
+        width: 301px;
+        margin-left: -798px;
+        text-align: center;
     }
 
     .test_para {
-        margin-left: -749px;
-        margin-bottom: 350px;
-        max-width: 420px;
+        margin-left: -798px;
+        margin-bottom: 210px;
+        max-width: 294px;
         text-align: center;
     }
 
     .test__ratings {
-        margin-left: -595px;
+        margin-left: -700px;
     }
 
     .h3_A {
-        margin-left: -686px;
-        margin-bottom: -0px;
+        margin-left: -791px;
+        margin-bottom: 14px;
+        font-size: 23px;        
     }
 
     .test_para2 {
-        margin-left: -749px;
-        max-width: 420px;
-        margin-bottom: 7px;
+        margin-left: -791px;
+        max-width: 287px;
+        margin-bottom: 42px;
         text-align: justify;
+
     }
 
     .test_img {
-        margin-left: -773px;
-        width: 476px;
-        height: 310px;
-        margin-top: -616px;
+        margin-left: -798px;
+        width: 301px;
+        height: 196px;
+        margin-top: -875px;
         margin-bottom: 210px;
     }
 
     .h3_B {
-        margin-left: -644px;
+        margin-left: -672px;
 
     }
 
     .h3_C {
-        margin-left: -625px;
+        margin-left: -651px;
     }
 
     .test_img2 {
-        margin-left: -763px;
-        margin-top: 35px;
+        margin-left: -784px;
+        margin-top: -7px;
     }
 
     .test_img3 {
-        margin-left: -441px;
+        margin-left: -574px;
     } 
 
     .test_img4 {
-        margin-left: 0px;
-        margin-top: -210px;
+        margin-left: -140px;
+        margin-top: 21px;
         margin-bottom: 211px;
     }
 
@@ -3397,8 +3400,8 @@ nav {
     /*  START  */
 
 .contact_ad {
-    width: 120%;
-    height: 126px;
+    width: 154%;
+    height: 91px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -3406,26 +3409,26 @@ nav {
     position: relative;
     margin-top: 35px;
     margin-bottom: 0px;
-    margin-left: -42px;
+    margin-left: -55px;
 }   
 
 .btn4 {
-        margin-left: 294px;
-        margin-top: -110px;
+        margin-left: 140px;
+        margin-top: -81px;
         margin-bottom: 118px;
-        padding: 11px 18px;
-        font-size: 14px;
-        width: 140px;
+        padding: 7px 10px;
+        font-size: 13px;
+        width: 98px;
 
     }
 
 .btn5 {
         margin-right: 7px;
-        margin-left: 294px;
-        margin-top: -105px;
-        padding: 10px 18px;
-        font-size: 14px;
-        width: 140px;
+        margin-left: 140px;
+        margin-top: -110px;
+        padding: 7px 10px;
+        font-size: 13px;
+        width: 98px;
     }
 
 
@@ -3433,65 +3436,66 @@ nav {
     /* FOOTER ↓ */
 
     footer {
-        padding: 0px 70px;
+        padding: 7px 70px;
         min-width: 637px;
         margin-left: -70px;
         margin-top: 21px;
+
     }
 
     .footer__columns {
-        max-width: 665px;
-        margin-left: 140px;
-        margin-top: 7px;
-        height: 91px;
+        max-width: 301px;
+        margin-left: 84px;
+        margin-top: -7px;
+        height: 35px;
     }
 
     .footer__column {
-        height: 147px;
+        height: 98px;
     }
 
     .footer__column--title {
-        font-size: 12px;
-        margin-top: -84px;
+        font-size: 10px;
+        margin-top: -77px;
         margin-bottom: 84px;
         margin-left: -140px;
-        padding-bottom: 7px;
+        padding-bottom: -7px;
     }
 
     .footer__column--link {
-        font-size: 11px;
+        font-size: 9px;
         margin-top: -98px;
         margin-bottom: -49px;
         margin-left: -140px;
     }
 
     .footer__logo--text {
-        margin-left: 35px; 
+        margin-left: 7px; 
         margin-top: -357px; 
     }
 
 .footer__logo--img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 26px;
     position: relative;
-    margin-top: 54px;
+    margin-top: 56px;
     margin-bottom: 49px;
-    margin-left: -49px;
+    margin-left: -60px;
     position: relative;
     padding-bottom: 5px;
 }
 
 .footer__logo--text {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
-    margin-top: -77px;
-    margin-left: -14px;
+    margin-top: -74px;
+    margin-left: -28px;
     position: relative;
     color: white;
 }
 
 .footer__copyright {
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 300;
     text-align: center;
     width: 100%;
@@ -3499,7 +3503,7 @@ nav {
     margin-top: -12px;
     position: relative;
     color: white;
-    margin-left: -77px;
+    margin-left: -56px;
     margin-right: -7px;
 }
 
@@ -3509,6 +3513,7 @@ nav {
     margin-bottom: 7px;
     margin-right: 14px;
     margin-left: 504px;
+
 }
 
 .footer__socials--img2 {
